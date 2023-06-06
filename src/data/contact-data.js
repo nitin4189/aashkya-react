@@ -6,22 +6,28 @@ import {
 
 export const contactData = [
   {
-    title: "Excelent Services",
+    title: "Clients Are Always Our Top Priority",
     icon: StarIcon,
     description:
-      "Some quick example text to build on the card title and make up the bulk of the card's content.",
+      "Your satisfaction is what Aashkya Group cares most about. With this in mind, we continue to provide you the most efficient solutions related to workers by taking into consideration your specific needs and requirements.",
   },
   {
-    title: "Grow Your Market",
+    title: "We Adhere To Regulations & Requirements",
     icon: PresentationChartLineIcon,
     description:
-      "Some quick example text to build on the card title and make up the bulk of the card's content.",
+      "Aashkya Group complies with all the latest legal requirements and regulations set by relevant Government departments. We make sure our operations and the management of workers are in tandem with local regulations in order to ensure our services are delivered to our clients without interruption.",
   },
   {
-    title: "Launch Time",
+    title: "Our Efficient Corporate Culture",
     icon: RocketLaunchIcon,
     description:
-      "Some quick example text to build on the card title and make up the bulk of the card's content.",
+      "Aashkya Group sets a high benchmark for its employees to expedite the documentation and submission of documents related to our services and the management of workers. Our employees are highly trained and are encouraged to be creative problem solvers to meet clients’ requests in all aspects in a timely manner.",
+  },
+  {
+    title: "Valuable Company Assets",
+    icon: RocketLaunchIcon,
+    description:
+      "Aashkya Group believes its highly trained, professional and passionate employees are the company’s greatest assets and values their contributions.",
   },
 ];
 
