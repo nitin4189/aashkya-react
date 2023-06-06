@@ -106,22 +106,22 @@ export function Home() {
         </div>
       </section> */}
       <section className="py-20">
-        <div className="container">
+        <div className="container mx-auto">
           <PageTitle heading="Our Vision">
             Services and solutions related to workers in India. We aspire to be a centre of excellence, pioneering and applying the best practices in the industry within the boundary of law. We are also committed to build successful partnerships and be acknowledged by the Government, the industry and all our clients.
           </PageTitle>
         </div>
-        <div className="container mt-4">
-        <div className="mx-auto w-full px-4 text-center">
-          <Typography variant="h4" color="blue-gray" className="mb-3">
-            Our Mission
-          </Typography>
-          <Typography variant="h6" className="text-blue-gray-500">
-            <p>1. We are dedicated to delivering cutting-edge and adaptable solutions that go beyond our clients' expectations</p>
-            <p>2. Our primary objective is to streamline the identification and resolution of issues, significantly reducing the time it takes to reach a resolution</p>
-            <p>3. By offering services that generate substantial value, we empower our clients to enhance their businesses</p>          
-          </Typography>
-        </div>
+        <div className="container mx-auto mt-4">
+          <div className="mx-auto w-full px-4 text-center">
+            <Typography variant="h4" color="blue-gray" className="mb-3">
+              Our Mission
+            </Typography>
+            <Typography variant="h6" className="text-blue-gray-500">
+              <p>1. We are dedicated to delivering cutting-edge and adaptable solutions that go beyond our clients' expectations</p>
+              <p>2. Our primary objective is to streamline the identification and resolution of issues, significantly reducing the time it takes to reach a resolution</p>
+              <p>3. By offering services that generate substantial value, we empower our clients to enhance their businesses</p>          
+            </Typography>
+          </div>
           {/* <div className="mt-24 grid grid-cols-1 gap-12 gap-x-24 md:grid-cols-2 xl:grid-cols-4">
             {teamData.map(({ img, name, position, socials }) => (
               <TeamCard
@@ -192,7 +192,7 @@ export function Home() {
         </div>
       </section>
       <section className="py-20 bg-blue-gray-50/50">
-        <div>
+        <div className="container mx-auto">
           <PageTitle heading="About Us">
             <div className="text-left">
               Aashkya Group, founded in 2018, is a startup that specializes in providing worker solutions in India. It prides itself on being one of the few comprehensive providers in the industry, offering a "one-stop" avenue for the supply of workers.<br/><br/>
@@ -208,7 +208,7 @@ export function Home() {
         </div>
       </section>
       <section className="py-20">
-        <div className="container mx-auto">
+        <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 gap-16 md:grid-cols-3 lg:grid-cols-3">
             <div>
               <Typography variant="h4" className="mb-2" color="blue-gray">
