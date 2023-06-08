@@ -5,11 +5,10 @@ import {
   Navbar as MTNavbar,
   MobileNav,
   Typography,
-  Button,
   IconButton,
 } from "@material-tailwind/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
-
+import logo from '../../assets/images/logo.png';
 export function Navbar({ brandName, routes }) {
   const [openNav, setOpenNav] = React.useState(false);
 
@@ -64,12 +63,10 @@ export function Navbar({ brandName, routes }) {
     <MTNavbar color="transparent" className="p-3">
       <div className="container mx-auto flex items-center justify-between text-white">
         <Link to="/">
-          <Typography className="mr-4 ml-2 cursor-pointer py-1.5 font-bold">
-            AASHKYA
-          </Typography>
+          <img src={logo} />
         </Link>
         {/* <div className="hidden lg:block">{navList}</div> */}
-        <IconButton
+        {/* <IconButton
           variant="text"
           size="sm"
           color="white"
@@ -81,7 +78,7 @@ export function Navbar({ brandName, routes }) {
           ) : (
             <Bars3Icon strokeWidth={2} className="h-6 w-6" />
           )}
-        </IconButton>
+        </IconButton> */}
       </div>
       <MobileNav
         className="rounded-xl bg-white px-4 pt-2 pb-4 text-blue-gray-900"
