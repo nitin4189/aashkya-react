@@ -154,7 +154,7 @@ Footer.defaultProps = {
   ],
   copyright: (
     <>
-      Copyright © {year} Aashkya.
+      Copyright © {year} Aashkya Solutions.
     </>
   ),
 };
